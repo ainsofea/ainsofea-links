@@ -1,0 +1,58 @@
+body
+{
+	background-image: url(https://media.giphy.com/media/3o6EhOYMhOTANYgHMk/giphy.gif) ;
+	background-size: cover;
+	color: white;
+	font-family: sans-serif;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+img
+{
+	border-radius: 50%;
+} 
+
+.propic
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	height: auto;
+	max-width: 100px;
+}
+
+.name
+{
+	text-align: center;
+	padding: 30px;
+}
+
+.links
+{
+	text-align: center;
+	margin-top: 20px;
+	padding: 20px;
+	border: 1px dashed skyblue;
+	border-width: 2px;
+	border-radius: 0px;
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+	transition: color 1s;
+}
+
+a:hover
+{
+	color: lightyellow;
+	background: skyblue;
+	cursor: crosshair;
+}
